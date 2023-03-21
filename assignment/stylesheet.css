@@ -2,6 +2,10 @@ body {
     background-image: url("record.png");
     /* could also be written as background-image: url("../assignment/record.png"); */
     /* However, this feels unecessary based on the fact that we are already in the correct folder/directory. */
+    background-repeat: repeat;
+    /* This feels odd putting in, as when I test without it, it was already repeated.*/
+    /* If I used something like background-repeat: space repeat; Then we would have a*/
+    /* difference from the baseline repeat, however that would not match the example.png*/
 }
 
 header {
