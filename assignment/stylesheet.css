@@ -6,6 +6,7 @@ body {
     /* This feels odd putting in, as when I test without it, it was already repeated.*/
     /* If I used something like background-repeat: space repeat; Then we would have a*/
     /* difference from the baseline repeat, however that would not match the example.png*/
+    margin: 0;
 }
 
 header {
@@ -16,4 +17,5 @@ header {
 
 main {
     background-color: lightgrey;
+    padding: 1em;
 }
