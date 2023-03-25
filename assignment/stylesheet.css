@@ -1,4 +1,9 @@
 body {
+    margin: 0;
+}
+
+.Body_Class {
+    background-color: darkorange;
     background-image: url("./record.png");
     /* could also be written as background-image: url("../assignment/record.png"); */
     /* However, this feels unecessary based on the fact that we are already in the correct folder/directory. */
@@ -6,16 +11,21 @@ body {
     /* This feels odd putting in, as when I test without it, it was already repeated.*/
     /* If I used something like background-repeat: space repeat; Then we would have a*/
     /* difference from the baseline repeat, however that would not match the example.png*/
-    margin: 0;
+    font-size: larger;
+    font-weight: bold;
 }
 
-header {
+.dark {
     background-color: darkblue;
-    color: skyblue;
     text-align: center;
 }
 
-main {
+.light {
+    color: skyblue;
+}
+
+.greyBackground {
     background-color: lightgrey;
     padding: 1em;
+    font-weight: lighter;
 }
