@@ -1,5 +1,5 @@
 body {
-    background-image: url("record.png");
+    background-image: url("./record.png");
     /* could also be written as background-image: url("../assignment/record.png"); */
     /* However, this feels unecessary based on the fact that we are already in the correct folder/directory. */
     background-repeat: repeat;
